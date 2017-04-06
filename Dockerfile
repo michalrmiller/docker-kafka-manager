@@ -32,3 +32,4 @@ RUN unzip /kafka-manager-${KM_VERSION}.zip \
 RUN rm -rf /kafka-manager-1.3.0.8.zip /1.3.0.8.tar.gz ~/.ivy2/cache/*
 WORKDIR /opt/kafka-manager
 ENTRYPOINT "/opt/kafka-manager/bin/kafka-manager"
+
